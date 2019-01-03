@@ -9,9 +9,9 @@ use AlibabaCloud\VersionResolverTrait;
  *
  * @package   AlibabaCloud\Chatbot
  *
- * @method V20171011\ChatbotApiResolver v20171011()
+ * @method static V20171011\ChatbotApiResolver v20171011()
  */
-class Chatbot
+class ChatbotVersion
 {
     use VersionResolverTrait;
 }
