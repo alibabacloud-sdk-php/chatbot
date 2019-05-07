@@ -8,6 +8,11 @@ use AlibabaCloud\Rpc;
 /**
  * Resolve Api based on the method name.
  *
+ * @method CreateSimilarityLoop createSimilarityLoop(array $options = [])
+ * @method QueryLoopList queryLoopList(array $options = [])
+ * @method QueryLoopResult queryLoopResult(array $options = [])
+ * @method QueryLoopStatus queryLoopStatus(array $options = [])
+ * @method CreateClusterLoop createClusterLoop(array $options = [])
  * @method UpdateCoreWord updateCoreWord(array $options = [])
  * @method DeleteCoreWord deleteCoreWord(array $options = [])
  * @method CreateCoreWord createCoreWord(array $options = [])
@@ -78,6 +83,48 @@ class V20171011Rpc extends Rpc
 
     /** @var string */
     public $serviceCode = 'beebot';
+}
+
+/**
+ * @method string getTitle()
+ * @method $this withTitle($value)
+ * @method string getParams()
+ * @method $this withParams($value)
+ * @method string getMultiParams()
+ * @method $this withMultiParams($value)
+ */
+class CreateSimilarityLoop extends V20171011Rpc
+{
+}
+
+class QueryLoopList extends V20171011Rpc
+{
+}
+
+/**
+ * @method string getLoopId()
+ * @method $this withLoopId($value)
+ */
+class QueryLoopResult extends V20171011Rpc
+{
+}
+
+/**
+ * @method string getLoopId()
+ * @method $this withLoopId($value)
+ */
+class QueryLoopStatus extends V20171011Rpc
+{
+}
+
+/**
+ * @method string getTitle()
+ * @method $this withTitle($value)
+ * @method string getParams()
+ * @method $this withParams($value)
+ */
+class CreateClusterLoop extends V20171011Rpc
+{
 }
 
 /**
