@@ -5,8 +5,8 @@ namespace AlibabaCloud\Chatbot;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20171011\ChatbotApiResolver v20171011()
  */
-class ChatbotVersion extends VersionResolver
+class Chatbot extends VersionResolver
 {
 }
